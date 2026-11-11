@@ -5,11 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="icon" type="image/png" href="img/icone.png">
 <link rel="apple-touch-icon" href="img/icone.png">
-<meta property="og:title" content="Capucine &amp; Rory">
-<meta property="og:description" content="Chansons bilingues français-anglais pour les enfants de 2 à 8 ans.">
-<meta property="og:image" content="img/logo.png">
-<title>Capucine &amp; Rory</title>
-<meta name="description" content="Chansons bilingues français-anglais pour les enfants de 2 à 8 ans. Bilingual French-English songs for kids.">
+<title>Capucine &amp; Rory · Chansons bilingues pour enfants (français-anglais)</title>
+<meta name="description" content="Chansons pour enfants de 2 à 8 ans, en français et en anglais : comptines, chansons d'apprentissage et chansons au prénom de votre enfant. Bilingual French-English songs for kids.">
+<link rel="canonical" href="https://capucineetrory.ca/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://capucineetrory.ca/">
+<meta property="og:site_name" content="Capucine &amp; Rory">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:locale:alternate" content="en_CA">
+<meta property="og:title" content="Capucine &amp; Rory · Chansons bilingues pour enfants">
+<meta property="og:description" content="Chansons bilingues français-anglais pour les enfants de 2 à 8 ans, et chansons au prénom de votre enfant.">
+<meta property="og:image" content="https://capucineetrory.ca/img/jardin.webp">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://capucineetrory.ca/#org","name":"Capucine & Rory","url":"https://capucineetrory.ca/","logo":"https://capucineetrory.ca/img/logo.png","email":"contact@capucineetrory.ca","description":"Chansons bilingues français-anglais pour les enfants de 2 à 8 ans.","areaServed":"CA","sameAs":["https://www.youtube.com/@capucineetrory","https://www.instagram.com/capucineetrory/","https://www.tiktok.com/@capucineetrory","https://www.etsy.com/ca-fr/shop/CapucineEtRory"]},
+{"@type":"WebSite","@id":"https://capucineetrory.ca/#site","url":"https://capucineetrory.ca/","name":"Capucine & Rory","inLanguage":["fr-CA","en-CA"],"publisher":{"@id":"https://capucineetrory.ca/#org"}}
+]}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
@@ -116,14 +129,15 @@ nav.links a:hover{color:var(--coral-deep)}
 @media (max-width:760px){.offers{grid-template-columns:1fr}}
 
 /* follow */
-.follow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.follow{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media (max-width:1000px) and (min-width:821px){.follow{grid-template-columns:repeat(2,1fr)}}
 .social{display:flex;align-items:center;gap:14px;text-decoration:none;background:var(--paper);border:1.5px solid var(--line);border-radius:var(--r-md);padding:16px 18px;transition:border-color .15s}
 .social:hover{border-color:var(--night)}
 .social .ic{flex:0 0 46px;height:46px;border-radius:14px;display:grid;place-items:center;color:#fff}
 .social .ic svg{width:24px;height:24px;fill:currentColor}
 .social strong{display:block;font-family:var(--display);font-weight:600;font-size:1.1rem;color:var(--night)}
 .social span{font-size:.9rem;color:var(--ink-soft)}
-.yt{background:#E8432F}.ig{background:linear-gradient(135deg,var(--sun),var(--coral) 55%,#C94BA0)}.tt{background:var(--night)}
+.yt{background:#E8432F}.ig{background:linear-gradient(135deg,var(--sun),var(--coral) 55%,#C94BA0)}.tt{background:var(--night)}.et{background:#F1641E}
 @media (max-width:820px){.follow{grid-template-columns:1fr}}
 
 /* promise + contact */
@@ -207,10 +221,10 @@ html[lang="en"] [data-l="en"]{display:revert}
         <ol class="steps">
           <li><span data-l="fr">Choisissez la chanson sur notre boutique Etsy</span><span data-l="en">Pick a song in our Etsy shop</span></li>
           <li><span data-l="fr">Indiquez le prénom (et comment on le prononce) et l'âge : c'est tout ce qu'on demande sur votre enfant</span><span data-l="en">Tell us the name (and how to say it) and age: that's all we ask about your child</span></li>
-          <li><span data-l="fr">Recevez la chanson par courriel</span><span data-l="en">Get the song by email</span></li>
+          <li><span data-l="fr">Téléchargez vos fichiers depuis votre compte Etsy</span><span data-l="en">Download your files from your Etsy account</span></li>
         </ol>
         <div class="btn-row" style="margin-top:26px">
-          <span class="btn btn-ghost" aria-disabled="true" style="cursor:default"><span data-l="fr">Boutique Etsy : bientôt</span><span data-l="en">Etsy shop: coming soon</span></span>
+          <a class="btn btn-ghost" href="https://www.etsy.com/ca-fr/shop/CapucineEtRory" target="_blank" rel="noopener"><span data-l="fr">Voir la boutique Etsy</span><span data-l="en">Visit our Etsy shop</span></a>
         </div>
       </div>
       <div class="name-demo">
@@ -352,6 +366,10 @@ html[lang="en"] [data-l="en"]{display:revert}
         <a class="social" href="https://www.tiktok.com/@capucineetrory" target="_blank" rel="noopener">
           <span class="ic tt"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h3a4 4 0 0 0 4 4v3a7 7 0 0 1-4-1.3V15a6 6 0 1 1-6-6v3a3 3 0 1 0 3 3z"/></svg></span>
           <span><strong>TikTok</strong><span>@capucineetrory</span></span>
+        </a>
+        <a class="social" href="https://www.etsy.com/ca-fr/shop/CapucineEtRory" target="_blank" rel="noopener">
+          <span class="ic et"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8zm4-1V6a3 3 0 0 1 6 0v1h-2V6a1 1 0 0 0-2 0v1z"/></svg></span>
+          <span><strong>Etsy</strong><span>CapucineEtRory</span></span>
         </a>
       </div>
     </div>
